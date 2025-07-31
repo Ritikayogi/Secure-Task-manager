@@ -10,6 +10,7 @@ In the current digital age, managing tasks securely is a necessity for both indi
 *  Lack proper authentication mechanisms,
 *  Do not protect user data,
 *  Or are difficult to scale and maintain.
+  
 This project addresses the above problems by building a secure, scalable, and RESTful Task Manager API with token-based authentication and encrypted data handling.
 
 ## 🛠️ Tools & Technologies Used
