@@ -10,16 +10,23 @@ In the current digital age, managing tasks securely is a necessity for both indi
 This project addresses the above problems by building a secure, scalable, and RESTful Task Manager API with token-based authentication and encrypted data handling.
 
 🛠️ Tools & Technologies Used
+
 Tool/Library	     Purpose
+
 Flask	       ->    Python web framework for building the REST API
 
 MongoDB      ->    NoSQL database to store users and tasks
 
 PyJWT 	     ->    To implement JWT-based authentication
+
 bcrypt	     ->    For securely hashing user passwords
+
 PyTest       ->  	 For unit testing
+
 SwaggerUI    ->	   API documentation
+
 Git & GitHub ->	   Version control and collaboration
+
 Postman	API  ->    testing
 
 
