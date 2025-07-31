@@ -182,11 +182,10 @@ pytest
 
 This project was made with a strong focus on:
 
-* Clean code and modular design
-  
-* Reusability and scalability
-  
-* Security-first development
+Clean code and modular design  
+Reusability and scalability  
+Security-first development
+
   
 Contributions welcome!
 
