@@ -13,24 +13,17 @@ This project addresses the above problems by building a secure, scalable, and RE
 
 🛠️ Tools & Technologies Used
 
-Tool/Library	         Purpose
 
-Flask	       ->        Python web framework for building the REST API
-
-MongoDB      ->        NoSQL database to store users and tasks
-
-PyJWT 	     ->        To implement JWT-based authentication
-
-bcrypt	     ->        For securely hashing user passwords
-
-PyTest       ->  	     For unit testing
-
-SwaggerUI    ->	       API documentation
-
-Git & GitHub ->	       Version control and collaboration
-
-Postman	API  ->        testing
-
+| Tool/Library   | Purpose                                           |
+|----------------|---------------------------------------------------|
+| Flask          | Python web framework for building the REST API    |
+| MongoDB        | NoSQL database to store users and tasks           |
+| PyJWT          | To implement JWT-based authentication             |
+| bcrypt         | For securely hashing user passwords               |
+| PyTest         | For unit testing                                  |
+| Swagger UI     | API documentation                                 |
+| Git & GitHub   | Version control and collaboration                 |
+| Postman        | API testing                                       |
 
 🔒 Architecture Overview
 
