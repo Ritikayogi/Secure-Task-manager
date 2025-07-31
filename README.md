@@ -113,40 +113,69 @@ Endpoint	     Method	   Access	     Description
 
 🔬 How to Run the Project
 
+1. Clone the Repository
 
-1. Clone the Repo
-   
-  git clone https://github.com/Ritikayogi/Secure-Task-manager.git
-  
-  cd Secure-Task-manager
+```bash
+git clone https://github.com/Ritikayogi/Secure-Task-manager.git
+cd Secure-Task-manager
+```
 
-2. Create Virtual Environment
-   
-  python3 -m venv .venv
-  
-  source .venv/bin/activate
+---
 
-3. Install Requirements
-   
-  pip install -r requirements.txt
+2. Create a Virtual Environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+---
+
+3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
 
 4. Add Environment Variables
-   
-  Create a .env file:
-    SECRET_KEY=your_secret_key
-  MONGO_URI=mongodb://localhost:27017/taskdb
 
-5. Run the App
-    
-  python run.py
-  
-6. Test with Postman or Swagger
-    
-  Visit: http://localhost:5000/docs
+Create a `.env` file in the root directory and add:
+
+```env
+SECRET_KEY=your_secret_key
+MONGO_URI=mongodb://localhost:27017/taskdb
+```
+
+---
+
+5. Run the Application
+
+```bash
+python run.py
+```
+
+---
+
+6. Test API using Swagger or Postman
+
+Open in your browser:
+
+```
+http://localhost:5000/docs
+```
+
+---
 
 🧪 Running Tests
 
-    pytest
+To run all unit tests using PyTest:
+
+```bash
+pytest
+```
+
 
     
 📌 Contributions
