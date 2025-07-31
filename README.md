@@ -53,8 +53,20 @@ Diagram Description:
 📂 Folder Structure
 
 
+```
 SecureTaskManager/
-<pre> <code> ``` SecureTaskManager/ ├── app/ │ ├── __init__.py │ ├── auth.py # Registration and login logic │ ├── routes.py # Task CRUD routes │ ├── utils.py # JWT and auth decorators │ ├── tests/ │ │ └── test_auth.py # Unit tests for authentication │ └── .env # Secret keys and database URI ├── requirements.txt # Project dependencies ├── run.py # Main entry point └── README.md # This file ``` </code> </pre>
+├── app/
+│   ├── __init__.py
+│   ├── auth.py           # Registration and login logic
+│   ├── routes.py         # Task CRUD routes
+│   ├── utils.py          # JWT and auth decorators
+│   ├── tests/
+│   │   └── test_auth.py  # Unit tests for authentication
+│   └── .env              # Secret keys and database URI
+├── requirements.txt      # Project dependencies
+├── run.py                # Main entry point
+└── README.md             # This file
+```
 
 🚀 Features
 
