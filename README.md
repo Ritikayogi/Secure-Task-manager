@@ -6,9 +6,9 @@ A secure and scalable RESTful API for task management, built with Flask, MongoDB
 🧩 Problem Statement
 
 In the current digital age, managing tasks securely is a necessity for both individuals and organizations. However, many task management tools either:
-* Lack proper authentication mechanisms,
-* Do not protect user data,
-* Or are difficult to scale and maintain.
+*  Lack proper authentication mechanisms,
+*  Do not protect user data,
+*  Or are difficult to scale and maintain.
 This project addresses the above problems by building a secure, scalable, and RESTful Task Manager API with token-based authentication and encrypted data handling.
 
 🛠️ Tools & Technologies Used
@@ -33,15 +33,15 @@ This project addresses the above problems by building a secure, scalable, and RE
 
 Diagram Description:
 
-*Users register and log in → receive a JWT token
+* Users register and log in → receive a JWT token
 
-*All future API requests use this token in headers (Authorization: Bearer <token>)
+* All future API requests use this token in headers (Authorization: Bearer <token>)
 
-*Routes are protected using decorators
+* Routes are protected using decorators
 
-*Tasks are CRUD-operated by authenticated users only
+* Tasks are CRUD-operated by authenticated users only
 
-*Passwords are hashed before storing
+* Passwords are hashed before storing
 
 📂 Folder Structure
 
@@ -85,13 +85,13 @@ SecureTaskManager/
 Flow Summary:
 
 
-*User registers with email and password
+* User registers with email and password
 
-*Password is hashed using bcrypt
+* Password is hashed using bcrypt
 
-*On login, password is verified and JWT is issued
+* On login, password is verified and JWT is issued
 
-*JWT is used to authorize access to protected task routes
+* JWT is used to authorize access to protected task routes
 
 
 📘 API Endpoints Summary
