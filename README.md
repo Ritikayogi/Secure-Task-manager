@@ -54,19 +54,31 @@ Diagram Description:
 
 
 SecureTaskManager/
+
 ├── app/
+
 │   ├── __init__.py
+
 │   ├── auth.py          # Registration and login logic
+
 │   ├── routes.py        # Task CRUD routes
+
 │   ├── utils.py         # JWT and auth decorators
+
 │
 ├── tests/
+
 │   └── test_auth.py     # Unit tests for authentication
+
 │
 ├── .env                 # Secret keys and database URI
+
 ├── requirements.txt     # Project dependencies
+
 ├── run.py               # Main entry point
+
 └── README.md            # This file
+
 
 🚀 Features
 
@@ -127,31 +139,32 @@ Endpoint	     Method	   Access	     Description
   
   cd Secure-Task-manager
 
-3. Create Virtual Environment
+2. Create Virtual Environment
    
   python3 -m venv .venv
   
   source .venv/bin/activate
 
-5. Install Requirements
+3. Install Requirements
    
   pip install -r requirements.txt
 
-7. Add Environment Variables
+4. Add Environment Variables
    
   Create a .env file:
     SECRET_KEY=your_secret_key
   MONGO_URI=mongodb://localhost:27017/taskdb
 
-9. Run the App
+5. Run the App
     
   python run.py
   
-11. Test with Postman or Swagger
+6. Test with Postman or Swagger
     
   Visit: http://localhost:5000/docs
 
 🧪 Running Tests
+
     pytest
 
     
